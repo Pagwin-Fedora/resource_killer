@@ -6,7 +6,7 @@ use clap::{Arg, App};
 fn main() {
     let matches = App::new("Resource killer")
         .version("1.0")
-        .author("Pagwin <pagwin.fedora@protonmail.com>")
+        .author("Pagwin <pagwin@pagwin.xyz>")
         .about("Uses resources")
         .arg(Arg::with_name("thread-count")
             .short("c")
